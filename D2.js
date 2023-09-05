@@ -11,6 +11,17 @@ if (num < 100 && num >= 50) {
    console.log(num, " è piccolo di 50");
 }
 
+const x1 = 3;
+const x2 = 5;
+
+if (x1 > x2) {
+   console.log("primo numero è maggiore");
+} else if (x1 < x2) {
+   console.log("secondo numero è maggiore");
+} else {
+   console.log("I numeri sono parì");
+}
+
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
@@ -27,7 +38,7 @@ if (num !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-if (num % 5) {
+if (num % 5 === 0) {
    console.log(num, "è perfettamente divisibile per 5");
 } else {
    console.log(num, "non è perfettamente divisibile per 5");
@@ -58,7 +69,7 @@ if (num1 === 8 || num2 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 61;
+let totalShoppingCart = 55;
 let shippingCost = totalShoppingCart >= 50 ? 0 : 10;
 let total = (totalShoppingCart += shippingCost);
 console.log("totale è: ", total);
