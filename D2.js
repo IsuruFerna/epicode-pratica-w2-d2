@@ -3,14 +3,6 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const num = 75; // numero deve essere tra 0 e 100
-
-if (num < 100 && num >= 50) {
-   console.log(num, " è più grande di 50");
-} else {
-   console.log(num, " è piccolo di 50");
-}
-
 const x1 = 3;
 const x2 = 5;
 
